@@ -33,6 +33,44 @@ h1 {
   margin-bottom: 100px;
 }
 
+.rock,
+.paper,
+.scissors:hover {
+  cursor: pointer;
+}
+
+.rock {
+  background-image: url(img/Rock.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 80px;
+  height: 80px;
+}
+
+.paper {
+  background-image: url(img/Paper.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 80px;
+  height: 80px;
+}
+
+.scissors {
+  background-image: url(img/Scissors.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 80px;
+  height: 80px;
+}
 .tempRes {
   display: flex;
   justify-content: center;

@@ -30,13 +30,13 @@ function playRound(humanChoice, computerChoice) {
 }
 
 function displayPlayersChoice(playerSelection, computerSelection) {
-  human.textContent = "You: " + playerSelection;
-  computer.textContent = "Computer: " + computerSelection;
+  human.textContent = `You:    ${playerSelection}`;
+  computer.textContent = `Computer:    ${computerSelection}`;
 }
 
 function displayPlayersResults() {
-  coScore.textContent = "Computer Score: " + computerScore;
-  yoScore.textContent = "Your Score: " + humanScore;
+  coScore.textContent = `Computer Score:    ${computerScore}`;
+  yoScore.textContent = `Your Score:    ${humanScore}`;
 }
 
 function finalResults() {
@@ -45,6 +45,7 @@ function finalResults() {
     results?.appendChild(finalResult);
   } else if (computerScore === 5) {
     finalResult.textContent = "You Lose!";
+    finalResult.style.fontSize = "3rem";
     results?.appendChild(finalResult);
   }
 }
