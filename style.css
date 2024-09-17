@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+* {
+  text-align: center;
+  font-family: "Bangers";
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.intro {
+  font-size: 1.5rem;
+}
+
+.playersChoice {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.tempRes {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  color: rgb(155, 8, 40);
+  font-size: 1.5rem;
+}
+
+.newGame {
+  margin-top: 100px;
+}
